@@ -4,6 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./style.css">
+
+<style>
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .projimg:hover .overlay {
+    opacity: 0.5;
+  }
+
+</style>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -44,19 +65,44 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Homemade X-ray Machine</div>
-        <img src="./IMG_0888.jpg" alt="X-ray" style="width:100%">
+        <a href="./xray.html">
+              <div class="projimg">
+                  <img src="./IMG_0888.jpg" alt="X-ray" style="width:100%" >
+                <div class="overlay"> </div>
+              </div>
+         </a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Marching Band Lights</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+
+        <a href="./lights.html">
+              <div class="projimg">
+                  <img src="/w3images/house2.jpg" alt="Light" style="width:100%" class="projimg">
+                  <div class="overlay"> </div>
+
+              </div>
+        </a>
+
+
+
       </div>
     </div>
+
+
+
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Restoring a Motorcycle</div>
-        <img src="./suzuki.jpg" alt="House" style="width:100%">
+
+        <a href="./cycle.html">
+              <div class="projimg">
+                <img src="./suzuki.jpg" alt="Cycle" style="width:100%" class="projimg">
+                <div class="overlay"> </div>
+                </div>
+        </a>
+
       </div>
     </div>
 
@@ -64,19 +110,42 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Vintage Radio Replica</div>
-        <img src="./radio.jpg" alt="House" style="width:99%">
+
+        <a href="./radio.html">
+              <div class="projimg">
+                  <img src="./radio.jpg" alt="Radio" style="width:99%" class="projimg">
+                  <div class="overlay"> </div>
+              </div>
+      </a>
+
+
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Geiger Counter</div>
-        <img src="./geiger.jpg" alt="House" style="width:99%">
+
+
+        <a href="./geiger.html">
+              <div class="projimg">
+                    <img src="./geiger.jpg" alt="Geiger" style="width:99%" class="projimg">
+                    <div class="overlay"> </div>
+              </div>
+
+
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Old Cornet</div>
-        <img src="./cornet.jpg" alt="House" style="width:99%">
+
+        <a href="./xray.html">
+              <div class="projimg">
+                  <img src="./cornet.jpg" alt="Cornet" style="width:99%" class="projimg">
+                  <div class="overlay"> </div>
+              </div>
+      </a>
+
       </div>
     </div>
 
@@ -91,7 +160,7 @@
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
     <p>Hi, Im Nathan, a high school student interested in technology, music, and art. </p>
-    <p>This website is intended as a portfolio site to showcase my various projects. 
+    <p>This website is intended as a portfolio site to showcase my various projects.
     </p>
   </div>
 
@@ -114,10 +183,11 @@
     </form>
   </div>
 
-<!-- Image of location/map -->
+<!-- Image of location/map
 <div class="w3-container">
   <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
 </div>
+-->
 
 <!-- End page content -->
 </div>
