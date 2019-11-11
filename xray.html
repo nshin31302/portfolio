@@ -1,1 +1,101 @@
-test
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
+
+
+
+
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="./index.html" class="w3-bar-item w3-button"><b>N.</b> Shin</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="./index.html#projects" class="w3-bar-item w3-button">Projects</a>
+        <a href="./index.html#gallery" class="w3-bar-item w3-button">Gallery</a>
+        <a href="./index.html#about" class="w3-bar-item w3-button">About</a>
+        <a href="./index.html#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+<br>
+
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Turning an old TV into an X ray Machine</h2>
+</div>
+
+
+
+
+
+<div class="ptext">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Introduction</h3>
+  <p> X rays have always fascinated me. As a little kid, the ability to see through objects seemed like a real-world supepower,
+    and captured my attention. So naturally, many years later, when I stumbled across a homemade X-ray machine, I sought to construct my own.
+    <br>
+    <br>
+    Several Resources were used to make the machine. The user "radhoo" in <a href="https://4hv.org/e107_plugins/forum/forum_viewtopic.php?106277">this</a>
+    forum post seems to be one of the first people online to make an X-ray machine using "ordinary" vacuum tubes, rather than utilizing expensive
+    special-purpose X-ray tubes. As a result, many other builds seem to stem from his. Here are some other resources I used:
+    <br>
+    <br>
+     <a href="http://www.instructables.com/id/Homemade-Xray-Machine/?amp_page=true">Instructable by "stoppi71"</a>
+     <br>
+     <a href="http://uzzors2k.4hv.org/index.php?page=tubexray"> Guide by Erik Taylor</a>
+     <br>
+     <a href="https://www.dangerouslaboratories.org/xray1.html"> Article by "Dangerous Labratories"</a>
+  </p><br>
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Construction</h3>
+<p>
+  The heart of the X-ray machine is a circuit that creates High voltage using parts from an old fashioned TV. The TVs were found in the trash around the block, and had the parts extracted. <br>
+  <br>
+  <img class="w3-image" src="./00U0U_bxY3VvEhmtR_600x450.jpg" width="300" height="300"><img class="w3-image" src="./00U0U_kj1gMYztkfg_600x450.jpg" width="300" height="300">
+<br>
+<p> Some examples of the type of TV used in this project. <p>
+
+<br>
+The machine design involves a ZVS driver circuit that powers an AC flyback transformer that is fed through a Cockroft-Walton Multiplier
+Circuit to increase and multiply the volatge.
+The high voltage output from the Cockroft-walton multiplier is then connected to the xray tube. <br>
+<br><img class="w3-image" src="./FSW2MICGNBEVVKF.jpg" width="500" height="500"><img class="w3-image" src="./cw11.gif" width="500" height="500"><br> <br>
+<p>ZVS driver circuit and Cockroft-Walton Multiplier circuit schematics</p><br>
+<p>The "x-ray tube" utilized is an old <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=2c2s+tube&_sacat=0">2c2s</a>
+   Soviet vacuum tube sourced from ebay. My first few attempts at the X-ray machine used American-made vacuum tubes. Ironically,
+  the Soviet tubes functioned better as X-ray tubes because they were more poorly constructed than their American counterparts, so my attempts
+  after that used Soviet tubes. <br><br>
+Lead shielding from <a href="https://www.unitednuclear.com/"> United Nuclear</a> was purchased for protection. A long wire connected to a switch also
+served as a "remote" for the circuit to offer additional protection. Later, I also added an arduino-controlled camera trigger so that I could
+more easily control the picture quality of the X-ray machine. The camera was set to a long exposure with the widest aperature to capture the most light.
+  </p>
+<br>
+
+<img class="w3-image" src="./IMG_20190613_153440.jpg" width="400" height="400"><img class="w3-image" src="./xraysetup.jpg" width="400" height="400">
+<br><p>Photo of my "Xray machine"</p>
+
+  <br><h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Results</h3>
+
+  <p>Here are some pictures taken from my Home-made Xray machine:</p>
+  <br><img class="w3-image" src="./lighter.jpg" width="500" height="500"><img class="w3-image" src="./sdcard.jpg" width="500" height="500">
+  <img class="w3-image" src="./tape.jpg" width="500" height="500">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
